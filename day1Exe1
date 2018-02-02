@@ -1,0 +1,38 @@
+1. NEWTON Second Law
+STORE "m" equal 600
+STORE "a" equal 2
+
+STORE "F" calculation from "m" dikali "a"
+SHOW value of "F"
+
+-----------------------------------------------
+2. Tahun Kabisat
+STORE "tahun" to any value
+
+IF "tahun" modulus 4 && "tahun" modulus 100 && "tahun" modulus 400
+ DO calculation of "tahun"
+  DISPLAY "bukan kabisat"
+ELSE
+  DISPLAY "kabisat"
+
+-----------------------------------------------
+3. Laundry Day
+STORE "baju" with 0
+
+WHILE "baju" <= 20
+ ADD "baju" by 1
+IF "baju" equal 20
+ DO "cuciBaju"
+
+------------------------------------------------
+4. Periksa Kuku
+STORE "siswa" with 0
+STORE "kuku" to "panjang"
+
+WHILE "siswa" <= 40
+ ADD "siswa" by 1
+IF "siswa" have "kuku"
+ DO "hukumSiswa"
+ELSE
+ DO "pujiSiswa" 
+
